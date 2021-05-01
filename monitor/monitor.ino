@@ -57,7 +57,7 @@ LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 String inData;
 
 // Number of colors used for animating, higher = smoother and slower animation)
-int numColors = 255;
+int numColors = 511;
 int counter = 0;
 
 // The combination of numColors and animationDelay determines the
